@@ -4,7 +4,7 @@
  
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.huerta</groupId>
-    <artifactId>ExamenDAWJuan2ev</artifactId>
+    <artifactId>ExamenJuan1DAW</artifactId>
     <packaging>war</packaging>
     <version>1.0.0</version>
     <name>ExamenJuan</name>
@@ -33,21 +33,19 @@
 	 <artifactId>javax.faces</artifactId>
 	 <version>2.2.9</version>
         </dependency>
-
- <!--   <dependency>
+        <dependency>
          <groupId>redis.clients</groupId>
          <artifactId>jedis</artifactId>
          <version>2.7.2</version>
         </dependency>
-        <dependency> 
+        <dependency>
 	 <groupId>org.primefaces</groupId>
 	 <artifactId>primefaces</artifactId>
 	 <version>5.3</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
     <build>
      <plugins>
-<!--
       <plugin>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
@@ -56,7 +54,7 @@
           <httpConnector>
            <port>9999</port>
           </httpConnector>
-          
+          <!--
            <webAppConfig>
              <contextPath>/s4c</contextPath>
            </webAppConfig>
@@ -65,9 +63,9 @@
          implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
               <port>9096</port>
             </connector>
-           </connectors>  
+           </connectors>  -->
         </configuration>
-      </plugin>-->
+      </plugin>
       <plugin>
          <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-compiler-plugin</artifactId>
